@@ -12,7 +12,7 @@ const Header = () => {
           <Text style={styles.heading}>WalliesHd</Text>
         </View>
         <View>
-          <Text>3</Text>
+          <Text style={styles.versionInfo}>v1.0</Text>
         </View>
       </View>
     </View>
@@ -44,6 +44,10 @@ const styles = StyleSheet.create({
   },
   heading: {
     color: 'white',
+  },
+  versionInfo: {
+    color: 'white',
+    opacity: 0.4,
   },
 });
 
